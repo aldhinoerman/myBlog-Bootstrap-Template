@@ -1,0 +1,109 @@
+body {
+    background-color: #F2F2F2;
+}
+
+h1, h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+
+p, a{
+    font-family: 'PT Serif', serif;
+}
+
+img {
+    width: 4.5rem;
+}
+
+.text-self {
+    font-family: 'PT Sans', serif;
+    color: #252526;
+}
+
+.btn:hover {
+    background-color: #025930;
+}
+
+.nav-scroller a {
+    font-size: larger;
+    padding-bottom: 30px;
+}
+.nav-scroller a:hover {
+    color: #025930;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.jumbotron {
+    background-color: #BAD9C5;
+    background-image: url('../img/habibrizieq.png');
+    background-repeat: no-repeat;
+    background-size: 30.5rem;
+    background-position: right;
+}
+
+.jumbotron h1 {
+    color: #025930;
+}
+
+.jumbotron p {
+    color: #252526;
+}
+
+.card-body h5 {
+    font-family: 'PT Sans', sans-serif;
+    color: #252526;
+}
+
+.card-body p {
+    font-family: 'PT Serif', serif;
+    color: #252526;
+}
+
+.card-body .btn {
+    background-color: #025930;
+    border-color: #025930;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.card-body .btn:hover {
+    background-color: #58b388;
+    border-color: #58b388;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.blog-main {
+    margin-top: 30px;
+}
+
+.blog-sidebar p{
+    margin-top: 20px;
+}
+
+.blog-footer {
+    margin-top: 50px;
+    padding: 2.5rem 0;
+    color:#252526;
+    text-align: center;
+    background-color: #F2F2F2;
+    border-top: .05rem solid #e5e5e5;
+}
+
+.blog-pagination .btn:hover {
+    border-color: #025930;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
